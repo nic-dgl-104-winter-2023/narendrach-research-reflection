@@ -4,8 +4,8 @@ This is my research and reflection journal for DGL 104 winter 2023
 
 # course goals
 
-- learn new technology.
-- in time work complition and submission.
+- learn new languages that helps you in the future.
+- In time work complition and submission.
 - want to create some new things with learned technology or skill.
 - want to use this in an organization i am going to work and get better in using those new technology.
 - perfect in what i am learning in this course.
@@ -20,3 +20,5 @@ This is my research and reflection journal for DGL 104 winter 2023
 ### Come up
 
 - develop web app or mobile app for my region on places. It helps in outer people know about particular place.
+- Work through the knowledge you have keep track on it.
+- Make sure to revise what you know and what has to do.
