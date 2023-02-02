@@ -29,10 +29,11 @@ This is my research and reflection journal for DGL 104 winter 2023
 
 # Reflection of Style guide
 
-- Class and interface names are generally noun or noun phrases and begin with a capital letter:
+- The majority of class and interface names start with a capital letter and are nouns or noun phrases.
 
-- Method names generally begin with a lowercase letter. A call on a procedure is a statement to do something, so a procedure name is generally a verb phrase that is a command to do something.
-  public void setTitle(String t) { ... }
-- Variable names generally start with a lowercase letter.
-- Variable names should give the reader some hint about what the variable is used for. A well-chosen name, which gives a hint at the meaning of the variable, helps document a program, making it easier to understand. On the other hand, using the names of your friends or flowers that you like as variable names just annoys and makes the program harder to understand. Don't do that. Also, refrain from using vague names like counter or var or data; instead think about what the variable really is for and use a more concrete name.
-- 
+
+- Most method names start with a lowercase letter. A procedure name is typically a verb phrase that is a command to do something since a call on a process is a statement to do something.
+void setTitle() public
+Lowercase letters are typically used to begin variable names.
+- The reader should be given suggestions in the variable names as to what they are utilized for. A well-documented program is simpler to understand and benefits from names that hint at the variable's meaning. 
+- On the other side, calling your variable names after your friends or your favourite flowers and complicates the application. Avoid doing that. Additionally, avoid giving variables ambiguous names like counter, var, or data; instead, consider what the variable will actually be used for and give it a more specific name.
