@@ -9,6 +9,7 @@ This is my research and reflection journal for DGL 104 winter 2023
 - want to create some new things with learned technology or skill.
 - want to use this in an organization i am going to work and get better in using those new technology.
 - perfect in what i am learning in this course.
+- 
 
 
 ## interests
@@ -23,7 +24,7 @@ This is my research and reflection journal for DGL 104 winter 2023
 - develop web app or mobile app for my region on places. It helps in outer people know about particular place.
 - Work through the knowledge you have keep track on it.
 - Make sure to revise what you know and what has to do.
-
+- i am working on my programming skills and language where it helps me in the project  and some other courses, by spending some time on the outcomes of this course.
 
 
 # Reflection of Style guide
@@ -48,12 +49,18 @@ Lowercase letters are typically used to begin variable names.
 - What is unit testing and how do you do it? [https://stackoverflow.com/questions/652292/what-is-unit-testing-and-how-do-you-do-it].
 - In Stack overflow, there are small code snippets and testing examples and more over different people explination in their view which we can get more knowlwdge while we are searching for them.
 
+- Software testing methods like unit testing are essential for assuring the dependability and quality of a program. Early bug detection and correction can save time and money in the long run because it is a cost-effective method.[https://circleci.com/enterprise/]
+- The ability to independently test particular pieces of code rather than having to test the complete application is one of the main advantages of unit testing.[https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters]
+- This improves in spotting issues early on in the development process, before they escalate in complexity and cost to resolve. Unit tests also offer a safety net for upcoming code revisions, making it simpler to make sure that changes to one section of the code do not unintentionally break another.[https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices]
+- Additionally, unit testing encourages a more flexible and reusable code architecture. Developers are compelled to consider the different parts of their code in isolation and how they interact with one another when they design unit tests. As a result, the codebase is better planned and easier to maintain.[https://www.techtarget.com/searchsoftwarequality/answer/Is-unit-testing-an-important-aspect-of-software-development]
+
 # Community code
 - Find smallest nuber in matrix [https://github.com/codinasion/program/issues/5129].
 - Write a java program to print number to word[https://github.com/codinasion/program/issues/2621].
 - Write a java program to convert centimeter to meter[https://github.com/codinasion/program/issues/2374].
 - Write a java program to print string of ascii values[https://github.com/codinasion/program/issues/1639].
 - write a program to convert a hours to weeks[https://github.com/codinasion/program/issues/1604].
+
 
 
 ## short reflection of Research and Reflection repository.
