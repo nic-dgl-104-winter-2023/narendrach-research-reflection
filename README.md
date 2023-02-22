@@ -93,11 +93,11 @@ public class convertTimeFrom12to24hours {
     }
 }
  ```
-- [Write a Java program to calculate compound interest](https://github.com/codinasion/program/issues/1362).
+
 - The above example was i found in the git hub, i started working on the issue in a simple manner but meanwhile soneone solve it and i decided to choose an another way of solving the problem in try and catch method of solving with the use of predefined java classes in the library.
-- For above ex
+- For above example i have applied try and catch methods because when i am learning java in CPS-100 i have practiced all types in this type of section also i have seen many examples so i didn,t find  any example with these methods so, i started working on it and found solution. 
 
-
+- [Write a Java program to calculate compound interest](https://github.com/codinasion/program/issues/1362).
 ```java
 import java.util.Scanner;
 
@@ -127,6 +127,8 @@ public class CalculateCompoundIntrest {
     }
 }
 ```
+- The above example is for finding Compound Intrest. For this example i have written basic code that i learned at early stege of lerning java programming and it went through good. 
+- this is my first example in community code and i have done some research on to find formula it self. i have written in my own and basic form in java without any methods or object calling.
 
 ## Short reflection of Research and Reflection repository.
 - Coming to this repository what i observed is i can monitor the things i have written in this journal and also can question us that what we have done and what i have to focus in the fututre to achive future goals by spending enough time on particular tasks.
