@@ -42,6 +42,7 @@ Lowercase letters are typically used to begin variable names.
 - The reader should be given suggestions in the variable names as to what they are utilized for. A well-documented program is simpler to understand and benefits from names that hint at the variable's meaning. 
 - On the other side, calling your variable names after your friends or your favourite flowers and complicates the application. Avoid doing that. Additionally, avoid giving variables ambiguous names like counter, var, or data; instead, consider what the variable will actually be used for and give it a more specific name.
 
+# Week3
 ## Programming Practice Article 
 
 - Testing is the topic our group selected to do in the assignment that we have to write for it.
@@ -67,7 +68,65 @@ Lowercase letters are typically used to begin variable names.
 - [Write a java program to print string of ascii values](https://github.com/codinasion/program/issues/1639).
 - ~~[Write a program to convert a hours to weeks](https://github.com/codinasion/program/issues/1604).~~
 
+- convert 12 hour format to 24 hour format:
 
+
+ ```java
+import java.util.Scanner;
+import java.text.SimpleDateFormat;
+import java.text.DateFormat;
+
+public class convertTimeFrom12to24hours {
+
+    public static void main(String[] args) {
+        String time12 = "02:30 PM";
+        DateFormat inFormat = new SimpleDateFormat("hh:mm aa");
+        DateFormat outFormat = new SimpleDateFormat("HH:mm");
+
+        try {
+            Date date = inFormat.parse(time12);
+            String time24 = outFormat.format(date);
+            System.out.println("24-hour format: " + time24);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+    }
+}
+ ```
+- [Write a Java program to calculate compound interest](https://github.com/codinasion/program/issues/1362).
+- The above example was i found in the git hub, i started working on the issue in a simple manner but meanwhile soneone solve it and i decided to choose an another way of solving the problem in try and catch method of solving with the use of predefined java classes in the library.
+- For above ex
+
+
+```java
+import java.util.Scanner;
+
+public class CalculateCompoundIntrest {
+
+    public static void main(String[] args) {
+
+        int principle;
+        double rate, amount, time, subamt;
+
+        Scanner scnr = new Scanner(System.in);
+
+        System.out.println("enter your amount");
+        principle = scnr.nextInt();
+
+        System.out.println("enter your Rate");
+        rate = scnr.nextDouble();
+
+        System.out.println("enter your Time");
+        time = scnr.nextDouble();
+
+        subamt = (Math.pow((1 + rate/100), time));
+        amount = principle * subamt;
+
+        System.out.println("Total amount is " + amount);
+
+    }
+}
+```
 
 ## Short reflection of Research and Reflection repository.
 - Coming to this repository what i observed is i can monitor the things i have written in this journal and also can question us that what we have done and what i have to focus in the fututre to achive future goals by spending enough time on particular tasks.
