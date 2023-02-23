@@ -64,9 +64,143 @@ Lowercase letters are typically used to begin variable names.
 # Community code
 - [Find smallest number in matrix ](https://github.com/codinasion/program/issues/5129).
 - [Write a java program to print number to word](https://github.com/codinasion/program/issues/2621).
-- ~~[Write a java program to convert centimeter to meter](https://github.com/codinasion/program/issues/2374).~~
+```java
+
+import java.util.Scanner;
+
+public class PrintNumberToWord {
+    
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        String result = convertNumberToWords(number);
+        System.out.println("Result: " + result);
+    }
+
+    private static String convertNumberToWords(int number) {
+        if (number == 0) {
+            return "zero";
+        }
+        String words = "";
+        if (number < 0) {
+            words += "minus ";
+            number = Math.abs(number);
+        }
+        if (number >= 1000000000) {
+            words += convertNumberToWords(number / 1000000000) + " billion ";
+            number %= 1000000000;
+        }
+        if (number >= 1000000) {
+            words += convertNumberToWords(number / 1000000) + " million ";
+            number %= 1000000;
+        }
+        if (number >= 1000) {
+            words += convertNumberToWords(number / 1000) + " thousand ";
+            number %= 1000;
+        }
+        if (number >= 100) {
+            words += convertNumberToWords(number / 100) + " hundred ";
+            number %= 100;
+        }
+        if (number >= 10 && number <= 19) {
+            words += getTeenNumberWord(number);
+            return words;
+        }
+        if (number >= 20) {
+            words += getTensNumberWord(number / 10) + " ";
+            number %= 10;
+        }
+        if (number >= 1 && number <= 9) {
+            words += getUnitNumberWord(number);
+        }
+        return words.trim();
+    }
+
+    private static String getUnitNumberWord(int number) {
+        switch (number) {
+            case 1:
+                return "one";
+            case 2:
+                return "two";
+            case 3:
+                return "three";
+            case 4:
+                return "four";
+            case 5:
+                return "five";
+            case 6:
+                return "six";
+            case 7:
+                return "seven";
+            case 8:
+                return "eight";
+            case 9:
+                return "nine";
+            default:
+                return "";
+        }
+    }
+
+    private static String getTeenNumberWord(int number) {
+        switch (number) {
+            case 10:
+                return "ten";
+            case 11:
+                return "eleven";
+            case 12:
+                return "twelve";
+            case 13:
+                return "thirteen";
+            case 14:
+                return "fourteen";
+            case 15:
+                return "fifteen";
+            case 16:
+                return "sixteen";
+            case 17:
+                return "seventeen";
+            case 18:
+                return "eighteen";
+            case 19:
+                return "nineteen";
+            default:
+                return "";
+        }
+    }
+
+    private static String getTensNumberWord(int number) {
+        switch (number) {
+            case 2:
+                return "twenty";
+            case 3:
+                return "thirty";
+            case 4:
+                return "forty";
+            case 5:
+                return "fifty";
+            case 6:
+                return "sixty";
+            case 7:
+                return "seventy";
+            case 8:
+                return "eighty";
+            case 9:
+                return "ninety";
+            default:
+                return "";
+        }
+    }
+}
+
+```
+- To write code for this issue it took lot of time. it took one who;e day to crack the exact code and sort it in the program and worked on the some of the examples to get used to it.
+- First i have used while loop to sole the problem and it didn't worked, then searched posibilities fo code and then found some example but not exact and then written with switch case statement to get the required output.
+
+- [Write a java program to convert centimeter to meter](https://github.com/codinasion/program/issues/2374).~~
 - [Write a java program to print string of ascii values](https://github.com/codinasion/program/issues/1639).
-- ~~[Write a program to convert a hours to weeks](https://github.com/codinasion/program/issues/1604).~~
+- [Write a program to convert a hours to weeks](https://github.com/codinasion/program/issues/1604).~~
 
 - convert 12 hour format to 24 hour format:
 
@@ -171,6 +305,8 @@ public class ConvertStringtoConsonentcase {
 - The above is good first issue that i found in my community. For this example i have used for loop and if conditions to get the desired output that user wants to test on it and its working as required.
 - At starting i have found different ways to do the same problem, later just to make code legible and understands to every one i choose this way.
 
+### Reflection on Community code
 
+- Thank you for making us to work on the community code, from these i am learning a bit more rather than the normal learning by solving the issues and cracking the codes for good first issues and having some time with learning the new things form this Community code.
 ## Short reflection of Research and Reflection repository.
 - Coming to this repository what i observed is i can monitor the things i have written in this journal and also can question us that what we have done and what i have to focus in the fututre to achive future goals by spending enough time on particular tasks.
