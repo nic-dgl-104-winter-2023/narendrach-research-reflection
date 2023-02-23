@@ -130,5 +130,47 @@ public class CalculateCompoundIntrest {
 - The above example is for finding Compound Intrest. For this example i have written basic code that i learned at early stege of lerning java programming and it went through good. 
 - this is my first example in community code and i have done some research on to find formula it self. i have written in my own and basic form in java without any methods or object calling.
 
+- [Write a java program to convert string to consonentcase](https://github.com/codinasion/program/issues/5150).
+```java
+
+import java.util.Scanner;
+
+
+
+public class ConvertStringtoConsonentcase {
+
+    public static void main(String[] args) {
+        String str;
+        char newstr;
+
+        System.out.println("enter string");
+
+        Scanner scnr= new Scanner(System.in);
+
+        str = scnr.nextLine();
+
+        for(int i = 0; i <= str.length(); i++){
+
+            char ch = str.charAt(i);
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ){
+
+                newstr = ch;
+            }
+            else{
+                newstr = Character.toUpperCase(ch);
+            }
+            
+        }
+        System.out.print(newstr);
+        scnr.close();
+    }
+    
+}
+
+```
+- The above is good first issue that i found in my community. For this example i have used for loop and if conditions to get the desired output that user wants to test on it and its working as required.
+- At starting i have found different ways to do the same problem, later just to make code legible and understands to every one i choose this way.
+
+
 ## Short reflection of Research and Reflection repository.
 - Coming to this repository what i observed is i can monitor the things i have written in this journal and also can question us that what we have done and what i have to focus in the fututre to achive future goals by spending enough time on particular tasks.
