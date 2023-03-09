@@ -310,3 +310,27 @@ public class ConvertStringtoConsonentcase {
 - Thank you for making us to work on the community code, from these i am learning a bit more rather than the normal learning by solving the issues and cracking the codes for good first issues and having some time with learning the new things form this Community code.
 ## Short reflection of Research and Reflection repository.
 - Coming to this repository what i observed is i can monitor the things i have written in this journal and also can question us that what we have done and what i have to focus in the fututre to achive future goals by spending enough time on particular tasks.
+
+## week 6 In class 
+
+- Prototype - MVP (Minimal viable Product)
+- MIT app Inventor 
+- create space invadors app using MIT
+- - things that we get from app is
+- - i can see the rocket moving
+- - i can see the bullet hitting 
+- - i can suacer horizonatal along screen
+- - i can see the score changes and can reset it.
+
+- singleton 
+- 
+### MIT App Inventor
+
+- Created Homework MapIt app in MIT ap inventor by following tutoriols.
+- created every component and botton text box and written code according to it.
+- Tested the site with my android mobile its working as app apecification.
+- Found an issue in the development stage that button is mentioned in the components page instead of text area so replaced it in the same area.
+- I installed app in my phone and checked by  the proccess how it is going through its working as it is.
+- I have added address to database and retrieved when i clicked on the submit button.
+- It showed address what i have entered and checked with other address and results are positive.
+- When i clicked on location on the map it opened the map and din't showed any adress because location access was not provided then after turning on the location it showed my current address where i am right at that time and works same as designed. 
