@@ -324,7 +324,7 @@ public class ConvertStringtoConsonentcase {
 
 - singleton 
 - 
-### MIT App Inventor
+## MIT App Inventor
 
 - Created Homework MapIt app in MIT ap inventor by following tutoriols.
 - created every component and botton text box and written code according to it.
@@ -333,4 +333,23 @@ public class ConvertStringtoConsonentcase {
 - I installed app in my phone and checked by  the proccess how it is going through its working as it is.
 - I have added address to database and retrieved when i clicked on the submit button.
 - It showed address what i have entered and checked with other address and results are positive.
-- When i clicked on location on the map it opened the map and din't showed any adress because location access was not provided then after turning on the location it showed my current address where i am right at that time and works same as designed. 
+- When i clicked on location on the map it opened the map and din't showed any adress because location access was not provided then after turning on the location it showed my current address where i am right at that time and works same as designed.
+
+# MIT Project Idea
+- Ordering dairy products and organic vegetables directly from formers.
+
+# Week 8 In class lecture
+## Model View Controller
+- Frame work , libraries,programming language that implement MVC
+- Ruby on Rails - PWA
+- React, Angular, Embed vue
+- .Net
+
+#### Model
+- Model comsists of Data(DB, Json file, Data Stored in App), Interface to Data, Business logic,
+
+#### View
+- view consists of Graphical User Interface(GUI), No Direct access to data, Representation of the model at given point in time.
+
+#### Controller
+- it Consists of Entry Points, Handles Events, controls the model.
