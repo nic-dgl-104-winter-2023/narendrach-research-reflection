@@ -336,7 +336,9 @@ public class ConvertStringtoConsonentcase {
 - When i clicked on location on the map it opened the map and din't showed any adress because location access was not provided then after turning on the location it showed my current address where i am right at that time and works same as designed.
 
 # MIT Project Idea
-- Ordering dairy products and organic vegetables directly from formers.
+- Ludo game
+- It is a multiplayer game as upto 4 members can play at same time or individual can play ono on one.
+- 
 
 # Week 8 In class lecture
 ## Model View Controller
