@@ -7,12 +7,12 @@ This is my research and reflection journal for DGL 104 winter 2023
 - Learning javascript in class and java languages simultaniously to helps in the future.
 - Spending 5 to 6 hours on weekends to getting know better in the language.
 - In time work completion and submission.
-- Want to create some new things with learned technology or skill.
+- From community code project i have don lot of rsearch for the finding logics and learnet new thing which is related to the java and oops concepts and also usage of oops in every usefull manner. in hte code.
 - Want to use this in an organization i am going to work and get better in using those new technology.
 - Perfect in what i am learning in this course.
 - Learned java script along with lectures and done my own research where i am feeling difficult and applied those problems again in the code and solved by own.
 - Through Community code works i am practicing java and writing some codes for issues and finding solutions to issues.
-
+- 
 
 ## interests
 
