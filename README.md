@@ -341,6 +341,7 @@ public class ConvertStringtoConsonentcase {
 # MIT Project Idea
 - Ludo game
 - It is a multiplayer game as upto 4 members can play at same time or individual can play ono on one.
+
 - 
 
 # Week 8 In class lecture
@@ -358,3 +359,13 @@ public class ConvertStringtoConsonentcase {
 
 #### Controller
 - it Consists of Entry Points, Handles Events, controls the model.
+
+## Week 10 replacement work
+- Mit project is simple multiplayer game that has some boxes on the screen which displays players coin or players number in the box.
+- The game description
+- - The game has check boxes or text boxes around the screen and a dice with 6 numbers.
+- - The game starts when the number appears on the screen first time and continues through boxes for the individual player 
+- - The game ends when one of the player reaches final spot and restarts the game again.
+- - In this game if one person has to win the game he has complete one full round of boxes without overlaping with the co-players.
+- - If the coins or players overlaps at same spot / box, the existing coin or person have to begin from start.s
+- The players coin or number will move depending on the random number or dice that i am gone use in the app.
