@@ -7,11 +7,13 @@ This is my research and reflection journal for DGL 104 winter 2023
 - Learning javascript in class and java languages simultaniously to helps in the future.
 - Spending 5 to 6 hours on weekends to getting know better in the language.
 - In time work completion and submission.
-- From community code project i have don lot of rsearch for the finding logics and learnet new thing which is related to the java and oops concepts and also usage of oops in every usefull manner. in hte code.
+- From community code project i have don lot of rsearch for the finding logics and learnet new thing which is related to the java and oops concepts and also usage of oops in every usefull manner in the code.
 - Want to use this in an organization i am going to work and get better in using those new technology.
 - Perfect in what i am learning in this course.
 - Learned java script along with lectures and done my own research where i am feeling difficult and applied those problems again in the code and solved by own.
 - Through Community code works i am practicing java and writing some codes for issues and finding solutions to issues.
+- From learning java helped me in learning new language called javascript where it is a essential language for user interactions in Html and css based websites and mobile sites.
+- Where both the languages are littile bit similar and especially identical syntax helps in learning in fast manner and it is used in while writting in code for html pages.
 - 
 
 ## interests
@@ -30,7 +32,8 @@ This is my research and reflection journal for DGL 104 winter 2023
 - I am working on my programming skills and language where it helps me in the project  and some other courses, by spending some time on the outcomes of this course.
 - By using javascript i have added some *onclick()* method calling alerts to my page in project and done some dynamic changes to the pages in the site. 
 - Created some notification alerts for user informative alerts by spending some time across browsing things that i need.
-
+- While learning the java and javascript(in class) gives confidence that we can make our own logic without search or asking someone for help.
+- This helped me in making my project more interactive and user attention inaddition. these knowlwdge i have used in while clicking the buttons and also pop ups in the page that alerts user any warning or error in the operation.
 
 # Reflection of Style guide
 
