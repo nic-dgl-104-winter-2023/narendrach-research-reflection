@@ -79,21 +79,24 @@ public class PrintNumberToWord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = scanner.nextInt();/* User entered number.*/
         String result = convertNumberToWords(number);
         System.out.println("Result: " + result);
     }
-
+/* The below code written on the oops based concept. 
+        the code is generalized with the if conditions as they are entered by the user and the conditions will be checked as a process.*/
     private static String convertNumberToWords(int number) {
         if (number == 0) {
             return "zero";
         }
-        String words = "";
+        String words = "";    /* From above code words is initiated with empty quatations and also used to print whole number that we gave as input */
         if (number < 0) {
             words += "minus ";
-            number = Math.abs(number);
+            number = Math.abs(number);/* Math function for changing any negative number values will be converted to positive number if number is less than 0. */ 
         }
+        /* I have written maximum number of on Billion as i am considering highest number.*/
         if (number >= 1000000000) {
+            /* As here words will be assigned with the calling function that accepts number from user input or predefined input followed by the */
             words += convertNumberToWords(number / 1000000000) + " billion ";
             number %= 1000000000;
         }
