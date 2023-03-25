@@ -14,7 +14,9 @@ This is my research and reflection journal for DGL 104 winter 2023
 - Through Community code works i am practicing java and writing some codes for issues and finding solutions to issues.
 - From learning java helped me in learning new language called javascript where it is a essential language for user interactions in Html and css based websites and mobile sites.
 - Where both the languages are littile bit similar and especially identical syntax helps in learning in fast manner and it is used in while writting in code for html pages.
-- 
+- As i mentioned earlier by learning the programing language i wanted todevelop an site which is informative for the people and that same is i am developing through main project in the capstone by using this learning experience.
+- These codes are validating better than at start of the semester and encourages me to work more and learn the important things.
+- These learning things are possible because as my intention with these languages are positive and also very helpful in future endouver as well as in the course that running now.
 
 ## interests
 
