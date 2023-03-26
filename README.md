@@ -92,11 +92,12 @@ public class PrintNumberToWord {
         String words = "";    /* From above code words is initiated with empty quatations and also used to print whole number that we gave as input */
         if (number < 0) {
             words += "minus ";
-            number = Math.abs(number);/* Math function for changing any negative number values will be converted to positive number if number is less than 0. */ 
+            number = Math.abs(number);/* Math function for changing any negative number values to positive number if number is less than 0. */ 
         }
         /* I have written maximum number of on Billion as i am considering highest number.*/
         if (number >= 1000000000) {
-            /* As here words will be assigned with the calling function that accepts number from user input or predefined input followed by the */
+            /* Here "words" will be assigned with the value that is in calling function that accepts number from user input followed by the division with a billion and returns with "billion" word. 
+            The same process continues with the remaining numbers upto humdreds. */
             words += convertNumberToWords(number / 1000000000) + " billion ";
             number %= 1000000000;
         }
@@ -113,6 +114,7 @@ public class PrintNumberToWord {
             number %= 100;
         }
         if (number >= 10 && number <= 19) {
+            /* From this step onwards it calls another method that generates numbers below 100 as it is sub divided from here.*/
             words += getTeenNumberWord(number);
             return words;
         }
@@ -125,7 +127,7 @@ public class PrintNumberToWord {
         }
         return words.trim();
     }
-
+/* This Method is for numbers one to nine in single digit. */
     private static String getUnitNumberWord(int number) {
         switch (number) {
             case 1:
@@ -150,7 +152,7 @@ public class PrintNumberToWord {
                 return "";
         }
     }
-
+/* This method returns values from ten to ninteen which are different for writing as compared to othe duble digit numbers.*/
     private static String getTeenNumberWord(int number) {
         switch (number) {
             case 10:
@@ -177,7 +179,7 @@ public class PrintNumberToWord {
                 return "";
         }
     }
-
+/*This method returns tens values upto ninty. */
     private static String getTensNumberWord(int number) {
         switch (number) {
             case 2:
