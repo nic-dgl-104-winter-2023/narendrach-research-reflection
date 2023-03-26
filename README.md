@@ -311,23 +311,23 @@ public class ConvertStringtoConsonentcase {
 
     public static void main(String[] args) {
         String str;
-        char newstr;
+        char newstr;   // Sring and char declaration for this program.
 
         System.out.println("enter string");
 
         Scanner scnr= new Scanner(System.in);
 
-        str = scnr.nextLine();
+        str = scnr.nextLine(); // User input string or word.
 
-        for(int i = 0; i <= str.length(); i++){
+        for(int i = 0; i <= str.length(); i++){ // This "for" loop if for repeating number of times that the word/ string  length that is given by the user.
 
             char ch = str.charAt(i);
             if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ){
 
-                newstr = ch;
+                newstr = ch;  // This if condition checks the particular indexed letter is any vowels or not. If it is then it remains same in the string at their position.
             }
             else{
-                newstr = Character.toUpperCase(ch);
+                newstr = Character.toUpperCase(ch); // Here in else statement remaining or non vowel letters are converted to uppercase letter by predefined keyword or function "character.toUppeCase()" method.
             }
 
         }
